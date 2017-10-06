@@ -48,27 +48,13 @@ Presentaties waar ik bij betrokken was:
 ---
   
 ## 4 Uitgevoerde taken voor het project <a name="Taken_project"></a>
-De taken zijn op chronologische volgorde weergegeven  
+In de map [Project taken](https://github.com/gaui74/Portfolio/tree/master/Project%20taken) staan alle taken waar ik gedurende het project mee bezig ben geweest, opgesplitst in taken waaruit een product is gekomen en taken waar geen product uit is ontstaan.
 
-[Samenvatting van eerdere (studenten) onderzoeken](https://docs.google.com/document/d/1B2aVJnIshw9VviJsPL9ZuDHiEiKkeah67Yfn-D8v9U0/edit?usp=sharing):
-* [x] Foutdetectie van sensoren in het klimaatregelsysteem
-* [x] Onderzoeksrapport visualisatie  
+### 4.1 Opgeleverde producten <a name="Producten"><a/>
+Alle opgeleverde (deel)producten staan in de map [Opgeleverde producten](https://github.com/gaui74/Portfolio/tree/master/Project%20taken/Opgeleverde%20producten).
 
-
-Onderzoeksrapport:
-* [x] [Aanleiding](https://docs.google.com/document/d/1A0goLR-UwdK0Yzf0kNSPONY4m_gPkySrOc6TvJWvYp8/edit?usp=sharing)
-* [x] [Probleemstelling](https://docs.google.com/document/d/1GNvwjAXR1yeKmBYHNozXt-6YAk9hqL0YTXbfDKZ2xWo/edit?usp=sharing)  
-
-
-[Stakeholders analyse](https://docs.google.com/document/d/1_ye6ioAlbb7o5IaEB9R8WoXjYITNqxEaVof3VodFhtA/edit?usp=sharing):
-* [x] Inleiding
-* [x] Arie Taal  
-
-
-[Onderzoeken van visualisatie tools](https://docs.google.com/document/d/1AB1OfIc8YVoMMScqCCOqiVHgcgTqMviEvohnUiASTH4/edit?usp=sharing):
-* [x] Building EQ
-* [x] SAW (Expert)
-* [x] SAW (GeNIe Smile)    
+### 4.2 Taken zonder producten <a name="Geen_producten"><a/>
+Hierin staan beschrijvingen van uitgevoerde taken die geen product hebben opgeleverd.
   
 ---
   
