@@ -62,6 +62,7 @@ Alle opgeleverde (deel)producten staan in de map [Opgeleverde producten](https:/
 * Literatuur bekijken.
 * Door andere projectleden geschreven stukken doorlezen en feedback geven.
 * Onderzoek naar de bruikbaarheid van Orange als visualisatie tool.
+* Onderzoek naar Bayesian belief networks
 
 ---
   
