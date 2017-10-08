@@ -59,7 +59,7 @@ Alle opgeleverde (deel)producten staan in de map [Opgeleverde producten](https:/
 
 ### 4.2 Taken zonder producten <a name="Geen_producten"><a/>
 [Hierin](https://github.com/gaui74/Portfolio/tree/master/Project%20taken/Taken%20zonder%20producten) staan beschrijvingen van uitgevoerde taken die geen product hebben opgeleverd.
-* Lteratuur bekijken.
+* Literatuur bekijken.
 * Door andere projectleden geschreven stukken doorlezen en feedback geven.
 * Onderzoek naar de bruikbaarheid van Orange als visualisatie tool.
 
