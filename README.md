@@ -32,13 +32,13 @@ In de map [Python scripts](https://github.com/gaui74/Portfolio/tree/master/Progr
   
 ---
 
-## 2 Online courses <a name="Online_courses"><a/>
+## 2 Online courses <a name="Online_courses"></a>
 In de map [Online courses](https://github.com/gaui74/Portfolio/tree/master/Online%20courses) zijn alle bewijzen voor het halen van online courses te vinden.
 
-### 2.1 Coursera <a name="Coursera"><a/>
+### 2.1 Coursera <a name="Coursera"></a>
 In de map [Coursera](https://github.com/gaui74/Portfolio/tree/master/Online%20courses/Coursera) zijn screenshots te vinden waarin duidelijk staat welke onderdelen van bepaalde courses zijn gehaald.
 
-### 2.2 Datacamp <a name="Datacamp"><a/>
+### 2.2 Datacamp <a name="Datacamp"></a>
 In de map [Datakamp](https://github.com/gaui74/Portfolio/tree/master/Online%20courses/Datacamp) Zijn certificaten van behaalde courses te vinden samen met screenshots van behaalde onderdelen.
 
 --- 
@@ -52,13 +52,13 @@ Presentaties waar ik bij betrokken was:
 ## 4 Uitgevoerde taken voor het project <a name="Taken_project"></a>
 In de map [Project taken](https://github.com/gaui74/Portfolio/tree/master/Project%20taken) staan alle taken waar ik gedurende het project mee bezig ben geweest, opgesplitst in taken waaruit een product is gekomen en taken waar geen product uit is ontstaan.
 
-### 4.1 Opgeleverde producten <a name="Producten"><a/>
+### 4.1 Opgeleverde producten <a name="Producten"></a>
 Alle opgeleverde (deel)producten staan in de map [Opgeleverde producten](https://github.com/gaui74/Portfolio/tree/master/Project%20taken/Opgeleverde%20producten).
 * [Begrippenlijst](https://github.com/gaui74/Portfolio/blob/master/Project%20taken/Opgeleverde%20producten/Begrippenlijst.docx)
 * [Klimaatregelsysteem](https://github.com/gaui74/Portfolio/blob/master/Project%20taken/Opgeleverde%20producten/Klimaatregelsysteem%20HHS.docx), met uitzondering van comfort definitie.
 * [Stakeholders analyse](https://docs.google.com/document/d/1_ye6ioAlbb7o5IaEB9R8WoXjYITNqxEaVof3VodFhtA/edit#heading=h.urxaz0w255z4), het stukje gaande studenten.
 
-### 4.2 Taken zonder producten <a name="Geen_producten"><a/>
+### 4.2 Taken zonder producten <a name="Geen_producten"></a>
 [Hierin](https://github.com/gaui74/Portfolio/tree/master/Project%20taken/Taken%20zonder%20producten) staan beschrijvingen van uitgevoerde taken die geen product hebben opgeleverd.
 * Literatuur bekijken.
 * Door andere projectleden geschreven stukken doorlezen en feedback geven.
@@ -76,7 +76,7 @@ n.n.b
 ### 5.2 Visualisatie <a name="Visualisatie"></a>
 n.n.b    
 
-### 5.3 Rest <a name="Rest"><a/>
+### 5.3 Rest <a name="Rest"></a>
 [Hier](https://github.com/gaui74/Portfolio/tree/master/Workshops/Rest) zijn de resterende producten, ontstaan uit workshops.
 * [Voorbereiding scrum workshop](https://github.com/gaui74/Portfolio/blob/master/Workshops/Rest/Scrum.docx)
 * [Schrijven van een abstract](https://github.com/gaui74/Portfolio/blob/master/Workshops/Rest/Format%20-%20Schrijven%20van%20een%20abstract%20(1).docx)
