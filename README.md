@@ -38,7 +38,7 @@ In de map [Online courses](https://github.com/gaui74/Portfolio/tree/master/Onlin
 In de map [Coursera](https://github.com/gaui74/Portfolio/tree/master/Online%20courses/Coursera) zijn screenshots te vinden waarin duidelijk staat welke onderdelen van bepaalde courses zijn gehaald.
 
 ### 2.2 Datacamp <a name="Datacamp"><a/>
-In de map [Datakamp](https://github.com/gaui74/Portfolio/tree/master/Online%20courses/Data%20camp) Zijn certificaten van behaalde courses te vinden samen met screenshots van behaalde onderdelen.
+In de map [Datakamp](https://github.com/gaui74/Portfolio/tree/master/Online%20courses/Datacamp) Zijn certificaten van behaalde courses te vinden samen met screenshots van behaalde onderdelen.
 
 --- 
  
