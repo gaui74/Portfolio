@@ -25,6 +25,7 @@ In de map [Programmeren](https://github.com/gaui74/Portfolio/tree/master/Program
 ### 1.1 Excel bestanden<a name="Excel"></a>
 In de map [Excel bestanden](https://github.com/gaui74/Portfolio/tree/master/Programmeren/Excel%20bestanden) zijn alle in Excel zelf gemaakte programma's te vinden.
 * [Data schoon maken v.1.0](https://docs.google.com/spreadsheets/d/1-uwaL5oCXaakGuihwC1bGEomSUFVIHFWiFsbEjyPR0Y/edit#gid=999407174)
+* [Data schoon maken v.1.1](https://docs.google.com/spreadsheets/d/1yL-Ziw4UTr67MxjY5A92hZEUczIFZIhhrfSVIfVa1fA/edit#gid=764676204)
 
 ### 1.2 Python scripts <a name="Python"></a>
 In de map [Python scripts](https://github.com/gaui74/Portfolio/tree/master/Programmeren/Python%20scripts) zijn alle in Python zelf gemaakte programma's te vinden.
