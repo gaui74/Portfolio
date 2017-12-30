@@ -60,7 +60,7 @@ In de map [Datakamp](https://github.com/gaui74/Portfolio/tree/master/Online%20co
 * [Certificaat Python data cleaning](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Datacamp/certificate_clean_py.pdf)
 * [Certificaat Python intermediate](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Datacamp/certificate_inter_py.pdf)
 * [Certificaat Python pandas](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Datacamp/certificate_pandas_py.pdf)
-* [Certificaat Python supervised learning(https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Datacamp/certificate_scikit_py.pdf)
+* [Certificaat Python supervised learning](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Datacamp/certificate_scikit_py.pdf)
 * [Certificaat Python statistical thinking part 1](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Datacamp/certificate_stat1_py.pdf)
 * [Niet afgemaakte courses](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Datacamp/Onafgemaakte_datakamp_courses.PNG)
 
@@ -68,7 +68,8 @@ In de map [Datakamp](https://github.com/gaui74/Portfolio/tree/master/Online%20co
  
 ## 3 Presentaties <a name="Presentaties"></a>
 Presentaties waar ik bij betrokken was:
-* [Week 3 (15-09)](https://docs.google.com/presentation/d/159EUHd6WClg6cKdBiFDfMCbfbDdmwbAJ1ulNIkZFSgQ/edit#slide=id.g253817c5d4_0_6)
+* [Week 3 (15-09)](https://github.com/gaui74/Portfolio/blob/master/Presentaties/Presentatie%2009-15.pptx?raw=true)
+* [Week 7 (13-10)](
 
   
 ---
