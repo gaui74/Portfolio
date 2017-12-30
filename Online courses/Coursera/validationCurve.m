@@ -45,6 +45,7 @@ for i = 1:length(lambda_vec)
     [J_val, grad_val] = linearRegCostFunction(Xval,yval,theta,lambda_vec(i));
     error_train(i) = J_train;
     error_val(i) = J_val;
+end
 
 
 
