@@ -69,7 +69,10 @@ In de map [Datakamp](https://github.com/gaui74/Portfolio/tree/master/Online%20co
 ## 3 Presentaties <a name="Presentaties"></a>
 Presentaties waar ik bij betrokken was:
 * [Week 3 (15-09)](https://github.com/gaui74/Portfolio/blob/master/Presentaties/Presentatie%2009-15.pptx?raw=true)
-* [Week 7 (13-10)](
+* [Week 7 (13-10)](https://github.com/gaui74/Portfolio/blob/master/Presentaties/Presentatie%2010-13.pptx?raw=true)
+* [Week 11 (17-11)](https://github.com/gaui74/Portfolio/blob/master/Presentaties/Presentatie%2011-17.pptx?raw=true)
+* [Week 15 (15-12)](https://github.com/gaui74/Portfolio/blob/master/Presentaties/Presentatie%2012-15.pptx?raw=true)
+* [Week 16 (22-12)](https://github.com/gaui74/Portfolio/blob/master/Presentaties/Presentatie%2012-22.pptx?raw=true)
 
   
 ---
@@ -88,7 +91,8 @@ Alle opgeleverde (deel)producten staan in de map [Opgeleverde producten](https:/
 * Literatuur bekijken.
 * Door andere projectleden geschreven stukken doorlezen en feedback geven.
 * Onderzoek naar de bruikbaarheid van Orange als visualisatie tool.
-* Onderzoek naar Bayesian belief networks
+* Onderzoek naar Bayesian belief networks.
+* Regelmatig andere projectleden ondersteunen op het gebied van Python code schrijven.
 
 ---
   
@@ -96,7 +100,8 @@ Alle opgeleverde (deel)producten staan in de map [Opgeleverde producten](https:/
 [In deze map](https://github.com/gaui74/Portfolio/tree/master/Workshops) zijn alle documenten die uit workshops zijn ontstaan te vinden.
 
 ### 5.1 Bullshit in Data Science <a name="Bullshit"></a>
-n.n.b   
+Hieronder bindt zich de ingeleverde versie van "Bullshit in Data Science"
+* [Bullshit](https://github.com/gaui74/Portfolio/blob/master/Workshops/Bulshit/Bullshit%20opdracht.docx?raw=true)
 
 ### 5.2 Visualisatie <a name="Visualisatie"></a>
 n.n.b    
