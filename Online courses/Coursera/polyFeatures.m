@@ -18,7 +18,7 @@ X_poly = zeros(numel(X), p);
 for i = 1:m
     for a = 1:n
         for power = 1:p
-            X_poly(i,(a+power - 1)) = X(i,a)^power;
+            X_poly(i,(((a-1)*p)+power)) = X(i,a)^power;
         end
     end
 end
