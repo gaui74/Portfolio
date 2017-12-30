@@ -47,17 +47,29 @@ In de map [Coursera](https://github.com/gaui74/Portfolio/tree/master/Online%20co
    * [Predict](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Coursera/predict.m)
    * [Sigmoid](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Coursera/sigmoid.m)
 * [Week 6](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Coursera/Week6.PNG)
-
+* Programmeeropdracht week 6
+   * [Learning curve](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Coursera/learningCurve.m)
+   * [Linear regression cost function](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Coursera/linearRegCostFunction.m)
+   * [Poly Features](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Coursera/polyFeatures.m)
+   * [Validation curve](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Coursera/validationCurve.m)
 
 
 ### 2.2 Datacamp <a name="Datacamp"></a>
 In de map [Datakamp](https://github.com/gaui74/Portfolio/tree/master/Online%20courses/Datacamp) Zijn certificaten van behaalde courses te vinden samen met screenshots van behaalde onderdelen.
+* [Certificaat Python intro](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Datacamp/certificate_Intro_py.pdf)
+* [Certificaat Python data cleaning](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Datacamp/certificate_clean_py.pdf)
+* [Certificaat Python intermediate](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Datacamp/certificate_inter_py.pdf)
+* [Certificaat Python pandas](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Datacamp/certificate_pandas_py.pdf)
+* [Certificaat Python supervised learning(https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Datacamp/certificate_scikit_py.pdf)
+* [Certificaat Python statistical thinking part 1](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Datacamp/certificate_stat1_py.pdf)
+* [Niet afgemaakte courses](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Datacamp/Onafgemaakte_datakamp_courses.PNG)
 
 --- 
  
 ## 3 Presentaties <a name="Presentaties"></a>
 Presentaties waar ik bij betrokken was:
 * [Week 3 (15-09)](https://docs.google.com/presentation/d/159EUHd6WClg6cKdBiFDfMCbfbDdmwbAJ1ulNIkZFSgQ/edit#slide=id.g253817c5d4_0_6)
+
   
 ---
   
