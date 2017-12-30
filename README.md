@@ -37,7 +37,17 @@ In de map [Online courses](https://github.com/gaui74/Portfolio/tree/master/Onlin
 
 ### 2.1 Coursera <a name="Coursera"></a>
 In de map [Coursera](https://github.com/gaui74/Portfolio/tree/master/Online%20courses/Coursera) zijn screenshots te vinden waarin duidelijk staat welke onderdelen van bepaalde courses zijn gehaald.
-* [Week 1](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Coursera/Week1.PNG){:target="_blank"}
+* [Week 1](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Coursera/Week1.PNG)
+* [Week 2](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Coursera/Week2.PNG)
+* [Week 3 deel 1](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Coursera/Week3_deel1.PNG)
+* [Week 3 deel 2](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Coursera/Week3_deel2.PNG)
+* Programmeeropdracht week 3
+   * [Cost function](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Coursera/costFunction.m)
+   * [Cost function reg](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Coursera/costFunctionReg.m)
+   * [Predict](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Coursera/predict.m)
+   * [Sigmoid](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Coursera/sigmoid.m)
+* [Week 6](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Coursera/Week6.PNG)
+
 
 
 ### 2.2 Datacamp <a name="Datacamp"></a>
