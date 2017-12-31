@@ -89,9 +89,10 @@ In de map [Project taken](https://github.com/gaui74/Portfolio/tree/master/Projec
 
 ### 4.1 Opgeleverde producten <a name="Producten"></a>
 Alle opgeleverde (deel)producten staan in de map [Opgeleverde producten](https://github.com/gaui74/Portfolio/tree/master/Project%20taken/Opgeleverde%20producten).
-* [Begrippenlijst](https://github.com/gaui74/Portfolio/blob/master/Project%20taken/Opgeleverde%20producten/Begrippenlijst.docx)
-* [Klimaatregelsysteem](https://github.com/gaui74/Portfolio/blob/master/Project%20taken/Opgeleverde%20producten/Klimaatregelsysteem%20HHS.docx), met uitzondering van comfort definitie.
-* [Stakeholders analyse](https://docs.google.com/document/d/1_ye6ioAlbb7o5IaEB9R8WoXjYITNqxEaVof3VodFhtA/edit#heading=h.urxaz0w255z4), het stukje gaande studenten.
+* [Begrippenlijst](https://github.com/gaui74/Portfolio/blob/master/Project%20taken/Opgeleverde%20producten/Begrippenlijst.docx?raw=true)
+* [Klimaatregelsysteem](https://github.com/gaui74/Portfolio/blob/master/Project%20taken/Opgeleverde%20producten/Klimaatregelsysteem%20HHS.docx?raw=true), met uitzondering van comfort definitie.
+* [Stakeholders analyse](https://docs.google.com/document/d/1_ye6ioAlbb7o5IaEB9R8WoXjYITNqxEaVof3VodFhtA/edit#heading=h.urxaz0w255z4?raw=true), het stukje gaande studenten.
+* [Hoofd en deelvragen](https://github.com/gaui74/Portfolio/blob/master/Project%20taken/Opgeleverde%20producten/hoofd%20en%20deelvrage.docx?raw=true), samen met de rest van de groep geformuleerd.
 
 ### 4.2 Taken zonder producten <a name="Geen_producten"></a>
 [Hierin](https://github.com/gaui74/Portfolio/tree/master/Project%20taken/Taken%20zonder%20producten) staan beschrijvingen van uitgevoerde taken die geen product hebben opgeleverd.
