@@ -24,8 +24,15 @@ In de map [Programmeren](https://github.com/gaui74/Portfolio/tree/master/Program
 
 ### 1.1 Excel bestanden<a name="Excel"></a>
 In de map [Excel bestanden](https://github.com/gaui74/Portfolio/tree/master/Programmeren/Excel%20bestanden) zijn alle in Excel zelf gemaakte programma's te vinden.
-* [Data schoon maken v.1.0](https://docs.google.com/spreadsheets/d/1-uwaL5oCXaakGuihwC1bGEomSUFVIHFWiFsbEjyPR0Y/edit#gid=999407174)
-* [Data schoon maken v.1.1](https://docs.google.com/spreadsheets/d/1yL-Ziw4UTr67MxjY5A92hZEUczIFZIhhrfSVIfVa1fA/edit#gid=764676204)
+* [Data schoon maken v.1.1](https://github.com/gaui74/Portfolio/blob/master/Programmeren/Excel%20bestanden/Schoonmaken%20v1.1)
+* [Data schoon maken v.1.2](https://github.com/gaui74/Portfolio/blob/master/Programmeren/Excel%20bestanden/Schoonmaken%20v1.2)
+* [Data schoon maken v.1.3](https://github.com/gaui74/Portfolio/blob/master/Programmeren/Excel%20bestanden/Schoonmaken%20v1.3)
+* [Data schoon maken v.1.4](https://github.com/gaui74/Portfolio/blob/master/Programmeren/Excel%20bestanden/Schoonmaken%20v1.4)
+* [Data schoon maken v.1.5](https://github.com/gaui74/Portfolio/blob/master/Programmeren/Excel%20bestanden/Schoonmaken%20v1.5)
+* [Data schoon maken v.1.6](https://github.com/gaui74/Portfolio/blob/master/Programmeren/Excel%20bestanden/Schoonmaken%20v1.6)
+* [Data schoon maken v.1.7](https://github.com/gaui74/Portfolio/blob/master/Programmeren/Excel%20bestanden/Schoonmaken%20v1.7)
+* [Data schoon maken v.1.8](https://github.com/gaui74/Portfolio/blob/master/Programmeren/Excel%20bestanden/Schoonmaken%20v1.8)
+
 
 ### 1.2 Python scripts <a name="Python"></a>
 In de map [Python scripts](https://github.com/gaui74/Portfolio/tree/master/Programmeren/Python%20scripts) zijn alle in Python zelf gemaakte programma's te vinden.
@@ -108,5 +115,5 @@ n.n.b
 
 ### 5.3 Rest <a name="Rest"></a>
 [Hier](https://github.com/gaui74/Portfolio/tree/master/Workshops/Rest) zijn de resterende producten, ontstaan uit workshops.
-* [Voorbereiding scrum workshop](https://github.com/gaui74/Portfolio/blob/master/Workshops/Rest/Scrum.docx)
-* [Schrijven van een abstract](https://github.com/gaui74/Portfolio/blob/master/Workshops/Rest/Format%20-%20Schrijven%20van%20een%20abstract%20(1).docx)
+* [Voorbereiding scrum workshop](https://github.com/gaui74/Portfolio/blob/master/Workshops/Rest/Scrum.docx?raw=true)
+* [Schrijven van een abstract](https://github.com/gaui74/Portfolio/blob/master/Workshops/Rest/Format%20-%20Schrijven%20van%20een%20abstract%20(1).docx?raw=true)
