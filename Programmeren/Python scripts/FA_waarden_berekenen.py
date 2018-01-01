@@ -14,21 +14,9 @@ import math
 from mpl_toolkits.mplot3d import Axes3D
 import csv
 
-#print(data.head())
-#print(data.iloc[17473:17600,2])
-#data = pd.read_csv("D2008jul2014jul2015-6min_schoon_overdag.csv",sep = ";",parse_dates={"Datum en tijd(uur)":[0,1]}, index_col = 0)
 data = pd.read_csv("D2014jan2014jan2015hour_schoon_overdag_TEST.csv",sep = ";",parse_dates={"Datum en tijd(uur)":[0,1]}, index_col = 0)
-#data = pd.read_csv("Test.csv",sep = ";",parse_dates={"Datum en tijd(uur)":[0,1]}, index_col = 0)
-#data = pd.read_csv("D2014_Jan14-Jan15_5min_schoon_.csv",sep = ";",parse_dates={"Datum en tijd(uur)":[0,1]}, index_col = 0)
 colommen = ["bedrijfsstatus","valve","temperature0","temperature1","energysupplycool","energysupplyheat","measairflow","lampenergy","objecttemp","waterflow","ambienttemp","presence","co2","airflowpressuredifference","actualairflow"]
 data = normaliseren(data_vinden(data,colommen))
-
-#==============================================================================
-# print(data.describe())
-# for a in range(len(data)):
-#     if data.iloc[a,2] == 0:
-#         print(a)
-#==============================================================================
         
 for a in range(len(data.columns)):
     print(data.iloc[:,a].count(), len(data.iloc[:,a]))
