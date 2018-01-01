@@ -8,10 +8,6 @@ from Varimax import ortho_rotation as rotatie
 from functies import data_vinden, normaliseren
 import seaborn as sns
 
-#data = pd.read_csv("SportData.csv",sep=";")
-#data = pd.read_csv("overlast.csv",sep=";")
-#data = pd.read_csv("Schoonmaken_v1.1.csv",sep=";",parse_dates = {"Datum en tijd(uur)" : [0,1]}, index_col = 0)
-#data = pd.read_csv("FA_test_doordeweeks_overdag.csv",sep = ";",parse_dates={"Datum en tijd(uur)":[0,1]}, index_col = 0)
 data = pd.read_csv("D2008jul2014jul2015-6min_schoon_overdag.csv",sep = ";",parse_dates={"Datum en tijd(uur)":[0,1]}, index_col = 0).dropna()
 colommen = ["bedrijfsstatus","valve","temperature 0", "measairflow","lampenergy","objecttemp","ambienttemp","presence","co2","air flow pressure difference","actual air flow"]
 # 0: Bedrijfstatus
@@ -26,51 +22,24 @@ colommen = ["bedrijfsstatus","valve","temperature 0", "measairflow","lampenergy"
 # 9: Airflow difference
 # 10: Actual airflow 
 data = normaliseren(data_vinden(data,colommen))
-#data = normaliseren(data)
 #==============================================================================
-# corrmat = data.corr()
-# 
-# colommen = ["bedrijfsstatus","valve","temperature 0", "measairflow","lightstate","objecttemp","lampenergy","ambienttemp","voltage switch","presence","co2","airflow diff","actualdim","actual airflow"]
-# 
+                # Code voor verbanden tussen variabelen bekijken met behulp van een heatmap
+# corrmat = data.corr() 
 # 
 # f, ax = plt.subplots(figsize=(12, 9))
 # ax = sns.heatmap(corrmat, vmax=.8, square=True, xticklabels = colommen, yticklabels = colommen)
 # ax.set_xticklabels(ax.get_xticklabels(), rotation = 60)
 # ax.set_yticklabels(ax.get_yticklabels(), rotation = 0)
 #==============================================================================
-#print(data.iloc[:,0],"  " , data.iloc[:,1])
-#data = data.iloc[960:1920,:]  #week 2
-#data = data.iloc[1920:2880,:] #week 3
-#data = data.iloc[2880:3840,:] #week 4
-#data = data.iloc[3840:4800,:] #week 5
 
 #==============================================================================
-# for a in range(len(data)):
-#     if a < len(data):
-#         data.iloc[a,4] = data.iloc[a,4] - data.iloc[a+1,4]
-#         print(data.iloc[a,4], "  " , a)
-#==============================================================================
-#==============================================================================
+                # poging tot date-time verwerken->werkte niet
 # for a in range(len(data)):
 #     data.iloc[a,1]=int(data.iloc[a,1][:2] + data.iloc[a,1][3:5] + data.iloc[a,1][6:8]) / 100
 #==============================================================================
-#data1 = data
-#data = data.iloc[0:1679,:] #week 1
-#data = data.iloc[960:1920,:]  #week 2
-#data = data.iloc[1920:2880,:] #week 3
-#data = data.iloc[2880:3840,:] #week 4
-#data = data.iloc[3840:4800,:] #week 5
+
 #==============================================================================
-#     if data.iloc[:,b].max() < verschil:
-#         data1 = pd.concat([data1, np.abs(data.iloc[:,b]/data.iloc[:,b].max())],axis = 1)
-#     elif data.iloc[:,b].min() < -1:
-#         data1 = pd.concat([data1,np.abs(data.iloc[:,b]/data.iloc[:,b].min())],axis = 1)
-#     else:
-#         data1 = pd.concat([data1, data.iloc[:,b]],axis=1)
-#==============================================================================
-    #data1 = pd.concat([data1,np.log(np.abs(data.iloc[:,b])+1)],axis=1)
-    #print(data1.iloc[:,b].head())
-#==============================================================================
+                # Voorereidende stappen voor de factor analyse. Hieruit wordt doormiddel van meerdere methoden het aantal factoren gevonden
 # covar_matrix = pd.DataFrame(np.cov(data.astype(float),rowvar = False))          #covariantiematrix maken
 # #for b in range(len(covar_matrix.columns)):
 #     #print(covar_matrix.iloc[:,b].head())
@@ -126,30 +95,4 @@ print(FA)
 #             som = som + data.iloc[a,b] * FA.iloc[b,c]
 #         oplossing.iloc[a,c] = round(som)
 # 
-# #==============================================================================
-# # for a in range(int(len(oplossing)/2),len(oplossing)):
-# #     print(a+2880,"  ",oplossing.iloc[a,3]>0)
-# #==============================================================================
-# #print(oplossing[oplossing.iloc[:,3] > 1])
-# for a in range(int(len(oplossing)/2)):
-#     print(a+3840,"  ",oplossing.iloc[a,2]>0)
-#==============================================================================
-#==============================================================================
-# for b in range(len(oplossing)):
-#     if oplossing.iloc[b,3] > 0: 
-#         print(oplossing.iloc[b,:])
-#==============================================================================
-#==============================================================================
-# for a in range(6):
-#     for b in range(24):
-#         if FA[b][a]<1 and FA[b][a]>-1:
-#             FA[b][a]=0
-#==============================================================================
-#print(np.transpose(FA))
-#haha = FA.fit_transform(np.transpose(data))
-#print(pd.DataFrame(np.transpose(FA.components_)))
 
-#==============================================================================
-# FA = FactorAnalysis(n_components = 6).fit(np.transpose(data1.iloc[:,2:]))
-# print(pd.DataFrame(FA.components_))
-#==============================================================================
