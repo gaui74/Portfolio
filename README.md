@@ -36,6 +36,12 @@ In de map [Excel bestanden](https://github.com/gaui74/Portfolio/tree/master/Prog
 
 ### 1.2 Python scripts <a name="Python"></a>
 In de map [Python scripts](https://github.com/gaui74/Portfolio/tree/master/Programmeren/Python%20scripts) zijn alle in Python zelf gemaakte programma's te vinden.
+* [Begin.py](https://github.com/gaui74/Portfolio/blob/master/Programmeren/Python%20scripts/Begin.py)
+* [Cluster herkenning](https://github.com/gaui74/Portfolio/blob/master/Programmeren/Python%20scripts/ClusterHerkenning.py)
+* [FA_classificatie_waarden.py](https://github.com/gaui74/Portfolio/blob/master/Programmeren/Python%20scripts/FA_classificatie_waarden.py)
+* [FA_en_herkenning.py](https://github.com/gaui74/Portfolio/blob/master/Programmeren/Python%20scripts/FA_en_herkenning.py)
+* [FA_waarden_berekenen.py](https://github.com/gaui74/Portfolio/blob/master/Programmeren/Python%20scripts/FA_waarden_berekenen.py)
+* [Functies.py](https://github.com/gaui74/Portfolio/blob/master/Programmeren/Python%20scripts/functies.py)
   
 ---
 
