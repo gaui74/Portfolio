@@ -10,14 +10,12 @@ from functies import normaliseren, data_vinden
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-#data = pd.read_csv("FA_test_doordeweeks_overdag.csv",sep = ";",parse_dates={"Datum en tijd(uur)":[0,1]}, index_col = 0)
-#data = pd.read_csv("2.008_jul14-jul15_schoon.csv",sep = ";",parse_dates={"Datum en tijd(uur)":[0,1]}, index_col = 0)
 data = pd.read_csv("D2014_Jan14-Jan15_5min_schoon.csv",sep = ";",parse_dates={"Datum en tijd(uur)":[0,1]}, index_col = 0)
 geb_colom = ["bedrijfstatus","valve actual pos","temperature 0","measairflow","lampenergy","objecttemp","ambienttemp","estimatedpresence","co2","air flow pressure difference","actual air flow"]
 print(data.head())
 data = data_vinden(data,geb_colom)
 data = normaliseren(data)
-#print(data)
+
 #Voor elk hieronder situatie zijn de volgende variabelen bekeken:
 # 0: Bedrijfstatus
 # 1: Luchtklep
@@ -52,7 +50,6 @@ for a in range(len(data)):
             som = som + data.iloc[a,b] * test.iloc[b,c]
         oplossing.iloc[a,c] = som
 
-#print(oplossing)
 fig = plt.figure(4)
 ax = fig.add_subplot(111,projection="3d")
 
