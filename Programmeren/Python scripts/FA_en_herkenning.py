@@ -55,3 +55,4 @@ for a in lijst:
     
     print(clusters)
     clusters.to_csv((file + "_clusters.csv"), sep=";")
+    
