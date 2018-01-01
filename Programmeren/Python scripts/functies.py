@@ -13,6 +13,7 @@ def naar_float(series):
             series.iloc[b,a] = float(series.iloc[b,a])
     return series
 
+# Een ruige 95% betrouwbaarheidsinterval
 from scipy.stats import norm
 import numpy as np
 def Ckans_normaal(df, test):
@@ -31,6 +32,7 @@ def Ckans_normaal(df, test):
             test.iloc[a,c] = norm(mu,std).cdf(test.iloc[a,c])
     return test
 
+# min/max normalisatie
 def normaliseren(data):
     data = pd.DataFrame(data)
     for b in range(0,len(data.columns)):
@@ -39,6 +41,7 @@ def normaliseren(data):
             data.iloc[:,b] = (data.iloc[:,b]-data.iloc[:,b].min())/verschil
     return data
 
+# selectief data kiezen op basis van gegeven lijst aan colommen
 def data_vinden(data, geb_colommen): 
     hoeveel_data = [0] * len(geb_colommen)
     geb_data = pd.DataFrame(index = data.index, columns = geb_colommen).fillna(value = 0)
@@ -56,7 +59,3 @@ def data_vinden(data, geb_colommen):
             geb_data.drop(b,axis = 1)
     
     return geb_data
-                            # Handige functies
-########################################################################################################################
-#from sklearn.model_selection import train_test_split
-#X_train, y_train, X_test, y_test = train_test_split(data_variabelen, gezochte_label, test_size = dbl, stratify = y)
