@@ -35,7 +35,7 @@ def plot_clusters(data, algorithm, args, kwds):
     plt.title('Clusters found by {}'.format(str(algorithm.__name__)), fontsize=24)
     plt.text(-0.5, 0.7, 'Clustering took {:.2f} s'.format(end_time - start_time), fontsize=14)
 
-
+#Oproepen van de visualisatie functie op basis van verschillende cluster technieken.
 plot_clusters(data, cluster.KMeans, (), {'n_clusters': 5})
 plot_clusters(data, cluster.AffinityPropagation, (), {'preference':-5.0, 'damping':0.95})
 plot_clusters(data, cluster.SpectralClustering, (), {'n_clusters':4})
