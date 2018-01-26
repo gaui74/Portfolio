@@ -1,5 +1,6 @@
 # Portfolio Gudjon Bjarnason
-De portfolio van Gudjon Bjarnason voor de minor KB74 (Applied Data Science)
+De portfolio van Gudjon Bjarnason voor de minor KB74 (Applied Data Science).
+Dit portfolio bevat de bezigheden en producten waar ik gedurende de minor meer bezig ben geweest. Ik ben tijdens de minor vooral bezig geweest met het onderzoeken naar de bruikbaarheid van cluster technieken om defecte sensoren op te sporen. Dit is voor het grootste deel gebeurd doormiddel van python code te schrijven en testen. Dit is tevens het onderdeel van de minor waar ik het meest trots op ben. Dit komt met name doordat ik aan het begin van deze minor nooit met python had gewerkt, maar uiteindelijk een aardig stuk code heb opgeleverd.
 
 ## Strucuur
 * 1\. [Programmeren](#Programmeren)
