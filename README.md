@@ -8,6 +8,8 @@ De portfolio van Gudjon Bjarnason voor de minor KB74 (Applied Data Science)
 * 2\. [Online courses](#Online_courses)
     * 2.1 [Coursera](#Coursera)
     * 2.2 [Datacamp](#Datacamp)
+    * 2.3 [Exploratory data analysis](#Eda)
+    * 2.4 [Spark tutorial](#Spark)
 * 3\. [Presentaties](#Presentaties)  
 * 4\. [Uitgevoerde taken voor het project](#Taken_project)
     * 4.1 [Opgeleverde producten](#Producten)
@@ -77,6 +79,22 @@ In de map [Datakamp](https://github.com/gaui74/Portfolio/tree/master/Online%20co
 * [Certificaat Python statistical thinking part 1](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Datacamp/certificate_stat1_py.pdf)
 * [Niet afgemaakte courses](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Datacamp/Onafgemaakte_datakamp_courses.PNG)
 
+### 2.3 Exploratory data analysis <a name="Eda"></a>
+In de map [Exploratory data analysis](https://github.com/gaui74/Portfolio/tree/master/Online%20courses/Exploratory%20data%20analysis) bevinden zich alle negen gemaakte "Exploratory data analysis" bestanden.
+* [Checking data edges](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Exploratory%20data%20analysis/1%2BChecking%2BData%2BEdges.md)
+* [Identifying variables](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Exploratory%20data%20analysis/2%2BIdentifying%2Bvariables.md)
+* [Univariate analysis](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Exploratory%20data%20analysis/3%20Univariate%20Analysis.md)
+* [Bivariate analysis](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Exploratory%20data%20analysis/4%20Bivariate%20Analysis.md)
+* [Missing values](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Exploratory%20data%20analysis/5%2BMissing%2BValues.md)
+* [Outliers](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Exploratory%20data%20analysis/6%20Outliers.md)
+* [Data transformation](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Exploratory%20data%20analysis/7%20Data%20Transformation.md)
+* [Creating variables](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Exploratory%20data%20analysis/8%2BCreating%2BVariables.md)
+* [Evaluatie](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Exploratory%20data%20analysis/9%2BEvaluate.md)
+
+### 2.4 Spark tutorial <a name="Spark"></a>
+[Hier](https://github.com/gaui74/Portfolio/tree/master/Online%20courses/Spark) bevinden zich twee opdrachten die met behulp van spark zijn gemaakt.
+* [Assignment 1](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Spark/assignment1.md)
+* [Assignment 2](https://github.com/gaui74/Portfolio/blob/master/Online%20courses/Spark/assignment2.md)
 --- 
  
 ## 3 Presentaties <a name="Presentaties"></a>
@@ -107,6 +125,8 @@ Alle opgeleverde (deel)producten staan in de map [Opgeleverde producten](https:/
 * Onderzoek naar de bruikbaarheid van Orange als visualisatie tool.
 * Onderzoek naar Bayesian belief networks.
 * Regelmatig andere projectleden ondersteunen op het gebied van Python code schrijven.
+* Data ophalen vanaf de Jupyterhub.
+* Door anderen geschreven stukken uit het onderzoeksverslag nakijken.
 
 ---
   
