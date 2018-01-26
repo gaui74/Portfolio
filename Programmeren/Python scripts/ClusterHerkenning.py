@@ -20,6 +20,8 @@ plot_kwds = {'alpha' : 0.25, 's' : 80, 'linewidths':0}
 data = pd.read_csv("cluster.csv",index_col = 0, sep = ";")
 print(data)
 
+#Functie voor het weergeven van resultaten, vanuit verschillende cluserherkenning methoden
+#Deze functie is niet zelf geschreven.
 def plot_clusters(data, algorithm, args, kwds):
     start_time = time.time()
     labels = algorithm(*args, **kwds).fit_predict(data)
