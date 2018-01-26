@@ -43,6 +43,7 @@ for a in lijst:
     lengte = len(oplossing)
     breede = np.sum(range(len(FA.index)))
     clusters = pd.DataFrame(index = oplossing.index)
+    
     #Clusters maken per 2 FA's
     for a in range(len(FA-1)):
         for b in range((a+1),len(FA)):
