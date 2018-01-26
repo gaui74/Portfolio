@@ -12,7 +12,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 data = pd.read_csv("D2014_Jan14-Jan15_5min_schoon.csv",sep = ";",parse_dates={"Datum en tijd(uur)":[0,1]}, index_col = 0)
 geb_colom = ["bedrijfstatus","valve actual pos","temperature 0","measairflow","lampenergy","objecttemp","ambienttemp","estimatedpresence","co2","air flow pressure difference","actual air flow"]
-print(data.head())
+# Zelf gemaakte functies opgeroepen. Voor verder uitleg zie "Functies"
 data = data_vinden(data,geb_colom)
 data = normaliseren(data)
 
@@ -28,6 +28,7 @@ data = normaliseren(data)
 # 8: Co2
 # 9: Airflow difference
 # 10: Actual airflow
+        # De gewichten van de variabelen van een aantal gevonden factoren
 luchtklep_niet_open_genoeg = [0.340667, -1.930618, 2.597218, -0.232039, -0.161661, -0.259005, -0.218329, 0.341457, -0.180115, -0.041821, -0.255754]
 ventilatie_hoog = [-0.153679, 0.086212, 0.205857, 1.712752, -1.607076, 0.124783, -0.290010, -0.154372, -1.534846, -0.098678, 1.709057]
 warm_niet_genoeg_aan_gedaan = [-0.423698, -1.038846, -0.399998, -0.284373, -0.528429, 1.894432, 2.253440, -0.423716, -0.353045, -0.411329, -0.284437]
@@ -37,12 +38,14 @@ ventilatie_duidelijk_aan_zonder_bekende_aanwezigheid = [-1.071892, -1.071860, 0.
 
 geb_situaties = [luchtklep_niet_open_genoeg,ventilatie_hoog,warm_niet_genoeg_aan_gedaan,indicatie_gebruik_lokaal,CO2_hoog_niet_genoeg_aan_gedaan,ventilatie_duidelijk_aan_zonder_bekende_aanwezigheid]
 
+        # Maken van een dataframe met daarin de gevonden gewichten.
 test = pd.DataFrame(data =np.transpose(np.matrix(geb_situaties)))
-#print(test)
 lengte = len(data)
 breede = len(test.columns)
+        #Lege dataframe aanmaken
 oplossing = pd.DataFrame(np.random.randint(low=0,high=1,size = (lengte,breede)),index = data.index)#(range(len(data)),range(len(FA.columns)))))
 
+        # Lege dataframe opvullen door de verkregen sensorwaarden te vermenigvuldigen met het bijbehorend gewicht
 for a in range(len(data)):
     for c in range(breede):
         som = 0
@@ -57,10 +60,12 @@ ax = fig.add_subplot(111,projection="3d")
 #print(oplossing[bekijken].iloc[:,0])
 #oplossingN = oplossing[bekijken]
 #kleur = normaliseren(data.iloc[:,8].values.reshape(-1,1)>0.4)
+        # alleen kijken naar CO2 waarden die boven een genormaliseerde waarde van 0.3 ligt. Dit is vanaf regel 77 gebruikt
 kleur = (data.iloc[:,8].values.reshape(-1,1) > 0.3)
 
 #kleur = bekijken.values.reshape(-1,1)
 
+        #Visualisatie
 #ax.scatter(data.iloc[:,6],data.iloc[:,5],data.iloc[:,1], c=kleur, cmap="autumn_r")
 ax.scatter((oplossing.iloc[:,0] + np.abs(np.min(oplossing.iloc[:,0]))),(oplossing.iloc[:,2] + np.abs(np.min(oplossing.iloc[:,2]))),(oplossing.iloc[:,5] + np.abs(np.min(oplossing.iloc[:,5]))),c=kleur,cmap="autumn_r" )
 #ax.scatter((oplossing[kleur][0] + np.abs(np.min(oplossing[kleur][0]))), (oplossing[kleur][2] + np.abs(np.min(oplossing[kleur][2]))), (oplossing[kleur][5] + np.abs(np.min(oplossing[kleur][5]))), c='y')
